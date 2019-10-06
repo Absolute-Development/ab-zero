@@ -19,8 +19,31 @@
 <div class="bar">
   <h3>About the bot</h3>
   <p>The friendly and fun Discord moderation bot. Absolute Zero v2 is a bot with both fun and functional commands and plugins, as well as many commands to help you moderate your server and keep in touch with other servers through the bot.</p>
-</div>
-	
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.1.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBuCm2uNzItWCfP8fyQSIIM6KQBA8T0PDE",
+    authDomain: "absolute-database.firebaseapp.com",
+    databaseURL: "https://absolute-database.firebaseio.com",
+    projectId: "absolute-database",
+    storageBucket: "absolute-database.appspot.com",
+    messagingSenderId: "958352714056",
+    appId: "1:958352714056:web:7f69f58cec2ffaa610eb7d",
+    measurementId: "G-9FK5PN1J93"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+	</div>
+
 <div class="bar">
   <h3>Invite the bot.</h3>
 	<a href="https://discordapp.com/api/oauth2/authorize?client_id=628409941056684062&permissions=8&scope=bot">click on me to invite the bot</a>
